@@ -1,0 +1,170 @@
+body
+{
+	font-family: "Give You What You Like", sans-serif, 'Satisfy', cursive;
+}
+
+@font-face
+{
+	font-family: "Give You What You Like";
+	src: url(../fonts/Give You What You Like - OTF.otf) format('embedded-opentype'),
+	url(Give You What You Like - OTF.otf) format('opentype');
+}
+
+@font-face
+{
+	font-family: "Viner Hand ITC";
+	src: url(../fonts/VINERITC.TTF) format('embedded-opentype'),
+	url(VINERITC.TTF) format('opentype');
+}
+
+#header
+{
+	height: 100vh;
+	background-image: url(../assets/background.png);
+	background-size: cover;
+	font-size: 2.3rem;
+}
+
+a
+{
+	color: #212529;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: #DE0D18;
+}
+
+.contact-title
+{
+	font-family: "Viner Hand ITC", 'Satisfy', cursive;
+	color: #DE0D18;
+	font-weight: 600;
+}
+
+.contact-title-container
+{
+	margin-bottom: -40px;
+}
+
+.social-responsive
+{
+	display: none;
+}
+
+.title
+{
+	margin-top: 60px;
+	font-size: 2.5rem;
+}
+
+.content
+{
+	font-size: 1.73rem;
+}
+
+.id-content
+{
+	font-size: 4rem;
+	color: #A0C31C;
+	font-weight: 600;
+	font-family: "Viner Hand ITC", 'Satisfy', cursive;
+	margin-bottom: -50px;
+}
+
+.arrow-top
+{
+	margin-top: 60px;
+	padding-left: 50px;
+}
+
+.arrow-bottom
+{
+	margin-top: 120px;
+	padding-left: 70px;
+}
+
+.contact
+{
+	font-size: 1.73rem;
+}
+
+.col-form-label
+{
+	margin-right: -50px;
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.btn
+{
+	margin-top: 10px;
+	border-radius: 0;
+}
+
+.btn-red
+{
+	background-color: #DE0D18;
+	color: #FFF;
+	padding: 3px 50px 3px 50px;
+	font-size: 1.5rem;
+}
+
+.btn-red:hover
+{
+	cursor: pointer;
+	background-color: #D6000C;
+}
+
+.form-group
+{
+	margin-bottom: 0;
+}
+
+.form-control:focus
+{
+	border-color: #DE0D18;
+}
+
+/*Media Queries*/
+@media(max-width:768px)
+{
+	#logo 
+	{
+		width: 100%;
+	}
+	.social-responsive img
+	{
+		width: 20%;
+	}
+	.social-responsive
+	{
+		display: block;
+		margin-top: 30px;
+	}
+	.arrow-top, 
+	.arrow-bottom, 
+	.social-desktop, 
+	.social-d
+	{
+		display: none;
+	}
+	.title
+	{
+		margin-top: 50px;
+	}
+	.col-sm-4
+	{
+		font-size: 22px;
+	}
+	.btn-red
+	{
+		margin-right: 40px;
+	}
+	.embed-responsive-item
+	{
+		width: 320px;
+		height: 275px;
+	}
+}
