@@ -180,6 +180,10 @@ a:hover
 	{
 		padding: 3px 5px 3px 5px;
 	}
+	.subtitle
+	{
+		font-size: 15px;
+	}
 
 @media(max-width:576px)
 {
