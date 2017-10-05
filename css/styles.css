@@ -36,18 +36,6 @@ a:hover
 	color: #DE0D18;
 }
 
-.contact-title
-{
-	font-family: "Viner Hand ITC", 'Satisfy', cursive;
-	color: #DE0D18;
-	font-weight: 600;
-}
-
-.contact-title-container
-{
-	margin-bottom: -40px;
-}
-
 .social-responsive
 {
 	display: none;
@@ -69,7 +57,7 @@ a:hover
 	font-size: 4rem;
 	color: #A0C31C;
 	font-weight: 600;
-	font-family: "Viner Hand ITC", 'Satisfy', cursive;
+	font-family: 'Satisfy', cursive;
 	margin-bottom: -50px;
 }
 
@@ -92,9 +80,8 @@ a:hover
 
 .col-form-label
 {
-	margin-right: -30px;
-	font-size: 22px;
-	font-weight: 600;
+	font-size: 24px;
+	font-weight: 400;
 }
 
 .btn
@@ -127,6 +114,16 @@ a:hover
 	border-color: #DE0D18;
 }
 
+.social-desktop
+{
+	margin-left: -310px;
+}
+
+.responsive
+{
+	display: none;
+}
+
 /*Media Queries*/
 @media(max-width:768px)
 {
@@ -134,9 +131,13 @@ a:hover
 	{
 		width: 100%;
 	}
+	#header
+	{
+		height: 100vh;
+	}
 	.social-responsive img
 	{
-		width: 20%;
+		width: 50%;
 	}
 	.social-responsive
 	{
@@ -146,7 +147,9 @@ a:hover
 	.arrow-top, 
 	.arrow-bottom, 
 	.social-desktop, 
-	.social-d
+	.social-d,
+	.desktop,
+	.text-form
 	{
 		display: none;
 	}
@@ -158,13 +161,35 @@ a:hover
 	{
 		font-size: 22px;
 	}
-	.btn-red
-	{
-		margin-right: 40px;
-	}
+	
 	.embed-responsive-item
 	{
 		width: 320px;
 		height: 275px;
+	}
+	.responsive
+	{
+		display: block;
+	}
+	.back-header
+	{
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media(max-width:576px)
+{
+	#header
+	{
+		height: 150vh;
+	}
+}
+
+@media(max-width:420px)
+{
+	#header
+	{
+		height: 100vh;
 	}
 }
