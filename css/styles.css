@@ -20,7 +20,7 @@ body
 #header
 {
 	height: 100vh;
-	background-image: url(../assets/background.png);
+	background-image: url(../assets/background.jpg);
 	background-size: cover;
 	font-size: 2.3rem;
 }
