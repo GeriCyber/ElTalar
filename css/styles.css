@@ -195,11 +195,11 @@ a:hover
 	}
 }
 
-@media(max-width:320px)
+@media(min-width:320px)
 {
 	#header
 	{
-		height: 250vh;
+		height: 200vh;
 	}
 }
 
