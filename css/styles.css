@@ -107,10 +107,11 @@ a:hover
 	border-color: #DE0D18;
 }
 
-.responsive
+.header-responsive
 {
 	display: none;
 }
+
 
 /*Media Queries*/
 @media(max-width:768px)
@@ -121,7 +122,7 @@ a:hover
 	}
 	#header
 	{
-		height: 100vh;
+		height: 180vh;
 	}
 	.social-responsive img
 	{
@@ -137,7 +138,8 @@ a:hover
 	.social-desktop, 
 	.social-d,
 	.desktop,
-	.text-form
+	.text-form,
+	.header-desktop
 	{
 		display: none;
 	}
@@ -155,7 +157,7 @@ a:hover
 		width: 320px;
 		height: 275px;
 	}
-	.responsive
+	.header-responsive
 	{
 		display: block;
 	}
@@ -177,7 +179,7 @@ a:hover
 {
 	#header
 	{
-		height: 150vh;
+		height: 250vh;
 	}
 }
 
@@ -185,6 +187,6 @@ a:hover
 {
 	#header
 	{
-		height: 100vh;
+		height: 120vh;
 	}
 }

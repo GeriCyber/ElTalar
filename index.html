@@ -31,7 +31,8 @@
 	<!--Header-->
 	<div class="container-fluid" id="header">
 		<div class="container-fluid h-100 d-flex align-items-center back-header">	
-			<div class="row d-flex justify-content-center">
+			<section class="header-desktop">
+				<div class="row d-flex justify-content-center">
 				<div class="col-md-4 col-6 text-white text-center">
 					<img class="img-fluid pb-2" id="logo" src="assets/logo.png" width="500px;">
 					<br><span class="subtitle">Disfrutá tu tiempo, que de la selección 
@@ -71,7 +72,52 @@
 						<a href="https://www.facebook.com/eltalarmd" target="blank"><img src="assets/fcb-logo.png" width="60px;" class="social-d"></a>
 						<a href="https://www.instagram.com/eltalarmd" target="blank"><img src="assets/ing-logo.png" width="60px"; class="social-d"></a>
 					</div>
-			</div>
+				</div>
+			</section>
+
+			<section class="header-responsive">
+				<div class="text-white text-center">
+					<img class="img-fluid pb-2" id="logo" src="assets/logo.png" width="500px;">
+					<br><span class="subtitle">Disfrutá tu tiempo, que de la selección 
+						y el envío nos encargamos nosotros.</span> <br>
+				</div>
+				<div class="col-12 col-sm-12 col-md-12 text-white">
+					<span class="text-form">Rellená el formulario para que nos comuniquemos con vos</span>
+						<form method="POST">
+						  	<div class="form-group row">
+						     	<label for="name" class="col-sm-2 col-form-label">Nombre:</label>
+						      	<div class="col-sm-10">
+						        	<input type="text" class="form-control" id="name" placeholder="Tu Nombre" required>
+						      	</div>
+						    </div>
+						    <div class="form-group row">
+						      	<label for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
+						      	<div class="col-sm-4">
+						        	<input type="email" class="form-control" id="email" placeholder="Email" required>
+						      	</div>
+						      	<label for="name" class="col-sm-2 col-form-label">Teléfono:</label>
+						    	<div class="col-sm-4">
+						        	<input type="text" class="form-control" id="telefono" placeholder="Tu número de teléfono" required>
+						      	</div>
+						    </div>
+						    <div class="form-group row">
+						      	<label for="inputPassword3" class="col-sm-4 col-md-2 col-form-label">Comentarios:</label>
+						      	<div class="col-sm-12">
+						        	<textarea class="form-control" class="form-control" rows="3" id="pedido" required></textarea>
+						      	</div>
+						    </div>
+							<div class="d-flex justify-content-end">
+								<button type="submit" class="btn btn-red">Enviar</button>
+							</div>
+						</form>
+					</div>
+					<div class="container social-desktop h-100 d-flex justify-content-center align-items-end pb-4">
+						<a href="https://www.facebook.com/eltalarmd" target="blank"><img src="assets/fcb-logo.png" width="60px;" class="social-d"></a>
+						<a href="https://www.instagram.com/eltalarmd" target="blank"><img src="assets/ing-logo.png" width="60px"; class="social-d"></a>
+					</div>
+				</div>
+			</section>
+
 		</div>
 	</div>	
 	<!--Header end-->
