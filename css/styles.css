@@ -190,3 +190,12 @@ a:hover
 		height: 120vh;
 	}
 }
+
+@media(min-width:320px)
+{
+	#header
+	{
+		height: 150vh;
+	}
+}
+
