@@ -1,6 +1,6 @@
 body
 {
-	font-family: "Give You What You Like", sans-serif, 'Satisfy', cursive;
+	font-family: "Give You What You Like", 'Satisfy', cursive, sans-serif;
 }
 
 @font-face
@@ -8,13 +8,6 @@ body
 	font-family: "Give You What You Like";
 	src: url(../fonts/Give You What You Like - OTF.otf) format('embedded-opentype'),
 	url(Give You What You Like - OTF.otf) format('opentype');
-}
-
-@font-face
-{
-	font-family: "Viner Hand ITC";
-	src: url(../fonts/VINERITC.TTF) format('embedded-opentype'),
-	url(VINERITC.TTF) format('opentype');
 }
 
 #header
@@ -57,7 +50,7 @@ a:hover
 	font-size: 4rem;
 	color: #A0C31C;
 	font-weight: 600;
-	font-family: 'Satisfy', cursive;
+	font-family: 'Satisfy', cursive, sans-serif;
 	margin-bottom: -50px;
 }
 
@@ -112,11 +105,6 @@ a:hover
 .form-control:focus
 {
 	border-color: #DE0D18;
-}
-
-.social-desktop
-{
-	margin-left: -310px;
 }
 
 .responsive
