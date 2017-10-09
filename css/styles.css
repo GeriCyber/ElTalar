@@ -121,7 +121,7 @@ a:hover
 	}
 	#header
 	{
-		height: 180vh;
+		height: 130vh;
 	}
 	.social-responsive img
 	{
@@ -174,27 +174,11 @@ a:hover
 		font-size: 16px;
 	}
 
-@media(max-width:576px)
+@media(max-height: 420px)
 {
 	#header
 	{
 		height: 250vh;
-	}
-}
-
-@media(max-width:420px)
-{
-	#header
-	{
-		height: 120vh;
-	}
-}
-
-@media(min-width:320px)
-{
-	#header
-	{
-		height: 150vh;
 	}
 }
 
